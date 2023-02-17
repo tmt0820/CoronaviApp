@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		806868F766604446CC9B2B42 /* Pods_CoronaviApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D37D7546434A3242DD72EC8 /* Pods_CoronaviApp.framework */; };
 		E089AE76299E32C300ADF75D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE75299E32C300ADF75D /* AppDelegate.swift */; };
 		E089AE78299E32C300ADF75D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE77299E32C300ADF75D /* SceneDelegate.swift */; };
 		E089AE7A299E32C300ADF75D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE79299E32C300ADF75D /* ViewController.swift */; };
-		E089AE7D299E32C300ADF75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AE7B299E32C300ADF75D /* Main.storyboard */; };
 		E089AE7F299E32C300ADF75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E089AE7E299E32C300ADF75D /* Assets.xcassets */; };
 		E089AE82299E32C300ADF75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AE80299E32C300ADF75D /* LaunchScreen.storyboard */; };
+		E089AE90299E33A900ADF75D /* service.txt in Resources */ = {isa = PBXBuildFile; fileRef = E089AE8F299E33A900ADF75D /* service.txt */; };
+		E089AE92299E33B300ADF75D /* policy.txt in Resources */ = {isa = PBXBuildFile; fileRef = E089AE91299E33B300ADF75D /* policy.txt */; };
+		E089AE94299E33CA00ADF75D /* CovidApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE93299E33CA00ADF75D /* CovidApi.swift */; };
+		E089AE97299E33D800ADF75D /* CovidSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE95299E33D800ADF75D /* CovidSingleton.swift */; };
+		E089AE98299E33D800ADF75D /* CovidEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE96299E33D800ADF75D /* CovidEntity.swift */; };
+		E089AEA0299E33E800ADF75D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE99299E33E800ADF75D /* MenuViewController.swift */; };
+		E089AEA1299E33E800ADF75D /* PrefectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9A299E33E800ADF75D /* PrefectureViewController.swift */; };
+		E089AEA2299E33E800ADF75D /* PrefectureTotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9B299E33E800ADF75D /* PrefectureTotalViewController.swift */; };
+		E089AEA3299E33E800ADF75D /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9C299E33E800ADF75D /* TermsOfServiceViewController.swift */; };
+		E089AEA4299E33E800ADF75D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9D299E33E800ADF75D /* SettingViewController.swift */; };
+		E089AEA5299E33E800ADF75D /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9E299E33E800ADF75D /* PrivacyPolicyViewController.swift */; };
+		E089AEA6299E33E800ADF75D /* DetailPrefectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9F299E33E800ADF75D /* DetailPrefectureViewController.swift */; };
+		E089AEAF299E33F600ADF75D /* PrivacyPolicy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEA7299E33F600ADF75D /* PrivacyPolicy.storyboard */; };
+		E089AEB0299E33F600ADF75D /* TermsOfService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEA8299E33F600ADF75D /* TermsOfService.storyboard */; };
+		E089AEB1299E33F600ADF75D /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEA9299E33F600ADF75D /* Setting.storyboard */; };
+		E089AEB2299E33F600ADF75D /* DetailPrefecture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEAA299E33F600ADF75D /* DetailPrefecture.storyboard */; };
+		E089AEB3299E33F600ADF75D /* Prefecture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEAB299E33F600ADF75D /* Prefecture.storyboard */; };
+		E089AEB4299E33F600ADF75D /* PrefectureTotal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEAC299E33F600ADF75D /* PrefectureTotal.storyboard */; };
+		E089AEB5299E33F600ADF75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEAD299E33F600ADF75D /* Main.storyboard */; };
+		E089AEBC299E3C4100ADF75D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E089AEBB299E3C4100ADF75D /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50BD8853DE24D8CE91F711F5 /* Pods-CoronaviApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaviApp.release.xcconfig"; path = "Target Support Files/Pods-CoronaviApp/Pods-CoronaviApp.release.xcconfig"; sourceTree = "<group>"; };
+		7D37D7546434A3242DD72EC8 /* Pods_CoronaviApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoronaviApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18A82E50EC3A1E30F8C31B9 /* Pods-CoronaviApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaviApp.debug.xcconfig"; path = "Target Support Files/Pods-CoronaviApp/Pods-CoronaviApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E089AE72299E32C300ADF75D /* CoronaviApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaviApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E089AE75299E32C300ADF75D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E089AE77299E32C300ADF75D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E089AE79299E32C300ADF75D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E089AE7C299E32C300ADF75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E089AE7E299E32C300ADF75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E089AE81299E32C300ADF75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E089AE83299E32C300ADF75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E089AE8F299E33A900ADF75D /* service.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = service.txt; path = ../../../../../work/App/bk/CoronaApp/CoronaApp/service.txt; sourceTree = "<group>"; };
+		E089AE91299E33B300ADF75D /* policy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = policy.txt; path = ../../../../../work/App/bk/CoronaApp/CoronaApp/Setting/policy.txt; sourceTree = "<group>"; };
+		E089AE93299E33CA00ADF75D /* CovidApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidApi.swift; path = ../../../CoronaApp/CoronaApp/Api/CovidApi.swift; sourceTree = "<group>"; };
+		E089AE95299E33D800ADF75D /* CovidSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidSingleton.swift; path = ../../../CoronaApp/CoronaApp/Entity/CovidSingleton.swift; sourceTree = "<group>"; };
+		E089AE96299E33D800ADF75D /* CovidEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidEntity.swift; path = ../../../CoronaApp/CoronaApp/Entity/CovidEntity.swift; sourceTree = "<group>"; };
+		E089AE99299E33E800ADF75D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/MenuViewController.swift; sourceTree = "<group>"; };
+		E089AE9A299E33E800ADF75D /* PrefectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrefectureViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/PrefectureViewController.swift; sourceTree = "<group>"; };
+		E089AE9B299E33E800ADF75D /* PrefectureTotalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrefectureTotalViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/PrefectureTotalViewController.swift; sourceTree = "<group>"; };
+		E089AE9C299E33E800ADF75D /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermsOfServiceViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/TermsOfServiceViewController.swift; sourceTree = "<group>"; };
+		E089AE9D299E33E800ADF75D /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/SettingViewController.swift; sourceTree = "<group>"; };
+		E089AE9E299E33E800ADF75D /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacyPolicyViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		E089AE9F299E33E800ADF75D /* DetailPrefectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailPrefectureViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/DetailPrefectureViewController.swift; sourceTree = "<group>"; };
+		E089AEA7299E33F600ADF75D /* PrivacyPolicy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PrivacyPolicy.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/PrivacyPolicy.storyboard; sourceTree = "<group>"; };
+		E089AEA8299E33F600ADF75D /* TermsOfService.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TermsOfService.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/TermsOfService.storyboard; sourceTree = "<group>"; };
+		E089AEA9299E33F600ADF75D /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Setting.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/Setting.storyboard; sourceTree = "<group>"; };
+		E089AEAA299E33F600ADF75D /* DetailPrefecture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = DetailPrefecture.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/DetailPrefecture.storyboard; sourceTree = "<group>"; };
+		E089AEAB299E33F600ADF75D /* Prefecture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Prefecture.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/Prefecture.storyboard; sourceTree = "<group>"; };
+		E089AEAC299E33F600ADF75D /* PrefectureTotal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PrefectureTotal.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/PrefectureTotal.storyboard; sourceTree = "<group>"; };
+		E089AEAE299E33F600ADF75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../CoronaApp/CoronaApp/StoryBoards/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E089AEBB299E3C4100ADF75D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806868F766604446CC9B2B42 /* Pods_CoronaviApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273C3FEF916910B8063E87C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D18A82E50EC3A1E30F8C31B9 /* Pods-CoronaviApp.debug.xcconfig */,
+				50BD8853DE24D8CE91F711F5 /* Pods-CoronaviApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BAFCB86F7184C1D08CED227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D37D7546434A3242DD72EC8 /* Pods_CoronaviApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E089AE69299E32C200ADF75D = {
 			isa = PBXGroup;
 			children = (
 				E089AE74299E32C300ADF75D /* CoronaviApp */,
 				E089AE73299E32C300ADF75D /* Products */,
+				273C3FEF916910B8063E87C9 /* Pods */,
+				6BAFCB86F7184C1D08CED227 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +118,74 @@
 		E089AE74299E32C300ADF75D /* CoronaviApp */ = {
 			isa = PBXGroup;
 			children = (
+				E089AE8E299E338F00ADF75D /* Setting */,
+				E089AE8D299E337D00ADF75D /* Api */,
+				E089AE8C299E336F00ADF75D /* Entity */,
+				E089AE8B299E335000ADF75D /* StoryBoards */,
+				E089AE89299E333800ADF75D /* ViewControllers */,
 				E089AE75299E32C300ADF75D /* AppDelegate.swift */,
 				E089AE77299E32C300ADF75D /* SceneDelegate.swift */,
 				E089AE79299E32C300ADF75D /* ViewController.swift */,
-				E089AE7B299E32C300ADF75D /* Main.storyboard */,
 				E089AE7E299E32C300ADF75D /* Assets.xcassets */,
 				E089AE80299E32C300ADF75D /* LaunchScreen.storyboard */,
 				E089AE83299E32C300ADF75D /* Info.plist */,
+				E089AEBB299E3C4100ADF75D /* Settings.bundle */,
 			);
 			path = CoronaviApp;
+			sourceTree = "<group>";
+		};
+		E089AE89299E333800ADF75D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E089AE9F299E33E800ADF75D /* DetailPrefectureViewController.swift */,
+				E089AE99299E33E800ADF75D /* MenuViewController.swift */,
+				E089AE9B299E33E800ADF75D /* PrefectureTotalViewController.swift */,
+				E089AE9A299E33E800ADF75D /* PrefectureViewController.swift */,
+				E089AE9E299E33E800ADF75D /* PrivacyPolicyViewController.swift */,
+				E089AE9D299E33E800ADF75D /* SettingViewController.swift */,
+				E089AE9C299E33E800ADF75D /* TermsOfServiceViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E089AE8B299E335000ADF75D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E089AEAA299E33F600ADF75D /* DetailPrefecture.storyboard */,
+				E089AEAD299E33F600ADF75D /* Main.storyboard */,
+				E089AEAB299E33F600ADF75D /* Prefecture.storyboard */,
+				E089AEAC299E33F600ADF75D /* PrefectureTotal.storyboard */,
+				E089AEA7299E33F600ADF75D /* PrivacyPolicy.storyboard */,
+				E089AEA9299E33F600ADF75D /* Setting.storyboard */,
+				E089AEA8299E33F600ADF75D /* TermsOfService.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		E089AE8C299E336F00ADF75D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E089AE96299E33D800ADF75D /* CovidEntity.swift */,
+				E089AE95299E33D800ADF75D /* CovidSingleton.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E089AE8D299E337D00ADF75D /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E089AE93299E33CA00ADF75D /* CovidApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E089AE8E299E338F00ADF75D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E089AE8F299E33A900ADF75D /* service.txt */,
+				E089AE91299E33B300ADF75D /* policy.txt */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E089AE86299E32C300ADF75D /* Build configuration list for PBXNativeTarget "CoronaviApp" */;
 			buildPhases = (
+				DC61A3A8D08D74B983046CB0 /* [CP] Check Pods Manifest.lock */,
 				E089AE6E299E32C300ADF75D /* Sources */,
 				E089AE6F299E32C300ADF75D /* Frameworks */,
 				E089AE70299E32C300ADF75D /* Resources */,
+				3B30B34120C5D0707306F3E0 /* [CP] Embed Pods Frameworks */,
+				E089AEB6299E3AE100ADF75D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,41 +250,119 @@
 			buildActionMask = 2147483647;
 			files = (
 				E089AE82299E32C300ADF75D /* LaunchScreen.storyboard in Resources */,
+				E089AE92299E33B300ADF75D /* policy.txt in Resources */,
+				E089AEB0299E33F600ADF75D /* TermsOfService.storyboard in Resources */,
+				E089AEB5299E33F600ADF75D /* Main.storyboard in Resources */,
+				E089AEBC299E3C4100ADF75D /* Settings.bundle in Resources */,
+				E089AEB2299E33F600ADF75D /* DetailPrefecture.storyboard in Resources */,
+				E089AEB4299E33F600ADF75D /* PrefectureTotal.storyboard in Resources */,
 				E089AE7F299E32C300ADF75D /* Assets.xcassets in Resources */,
-				E089AE7D299E32C300ADF75D /* Main.storyboard in Resources */,
+				E089AEB3299E33F600ADF75D /* Prefecture.storyboard in Resources */,
+				E089AE90299E33A900ADF75D /* service.txt in Resources */,
+				E089AEAF299E33F600ADF75D /* PrivacyPolicy.storyboard in Resources */,
+				E089AEB1299E33F600ADF75D /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B30B34120C5D0707306F3E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoronaviApp/Pods-CoronaviApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoronaviApp/Pods-CoronaviApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoronaviApp/Pods-CoronaviApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC61A3A8D08D74B983046CB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoronaviApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E089AEB6299E3AE100ADF75D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION = \"Debug\" ]; then\n    ${PODS_ROOT}/LicensePlist/license-plist --output-path $PROJECT_NAME/Settings.bundle\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E089AE6E299E32C300ADF75D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E089AE98299E33D800ADF75D /* CovidEntity.swift in Sources */,
+				E089AEA4299E33E800ADF75D /* SettingViewController.swift in Sources */,
+				E089AE94299E33CA00ADF75D /* CovidApi.swift in Sources */,
+				E089AEA5299E33E800ADF75D /* PrivacyPolicyViewController.swift in Sources */,
 				E089AE7A299E32C300ADF75D /* ViewController.swift in Sources */,
+				E089AEA0299E33E800ADF75D /* MenuViewController.swift in Sources */,
 				E089AE76299E32C300ADF75D /* AppDelegate.swift in Sources */,
+				E089AEA1299E33E800ADF75D /* PrefectureViewController.swift in Sources */,
+				E089AEA2299E33E800ADF75D /* PrefectureTotalViewController.swift in Sources */,
 				E089AE78299E32C300ADF75D /* SceneDelegate.swift in Sources */,
+				E089AE97299E33D800ADF75D /* CovidSingleton.swift in Sources */,
+				E089AEA3299E33E800ADF75D /* TermsOfServiceViewController.swift in Sources */,
+				E089AEA6299E33E800ADF75D /* DetailPrefectureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E089AE7B299E32C300ADF75D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E089AE7C299E32C300ADF75D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E089AE80299E32C300ADF75D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E089AE81299E32C300ADF75D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E089AEAD299E33F600ADF75D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E089AEAE299E33F600ADF75D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,6 +484,7 @@
 		};
 		E089AE87299E32C300ADF75D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18A82E50EC3A1E30F8C31B9 /* Pods-CoronaviApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +493,15 @@
 				DEVELOPMENT_TEAM = U2X494GHK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoronaviApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = coronavi;
+				INFOPLIST_KEY_NSLocationUsageDescription = "位置情報を取得します。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置情報を取得します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +517,7 @@
 		};
 		E089AE88299E32C300ADF75D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50BD8853DE24D8CE91F711F5 /* Pods-CoronaviApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +526,15 @@
 				DEVELOPMENT_TEAM = U2X494GHK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoronaviApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = coronavi;
+				INFOPLIST_KEY_NSLocationUsageDescription = "位置情報を取得します。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置情報を取得します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
