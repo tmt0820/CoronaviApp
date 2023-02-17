@@ -10,7 +10,6 @@
 		806868F766604446CC9B2B42 /* Pods_CoronaviApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D37D7546434A3242DD72EC8 /* Pods_CoronaviApp.framework */; };
 		E089AE76299E32C300ADF75D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE75299E32C300ADF75D /* AppDelegate.swift */; };
 		E089AE78299E32C300ADF75D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE77299E32C300ADF75D /* SceneDelegate.swift */; };
-		E089AE7A299E32C300ADF75D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE79299E32C300ADF75D /* ViewController.swift */; };
 		E089AE7F299E32C300ADF75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E089AE7E299E32C300ADF75D /* Assets.xcassets */; };
 		E089AE82299E32C300ADF75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AE80299E32C300ADF75D /* LaunchScreen.storyboard */; };
 		E089AE90299E33A900ADF75D /* service.txt in Resources */ = {isa = PBXBuildFile; fileRef = E089AE8F299E33A900ADF75D /* service.txt */; };
@@ -42,7 +41,6 @@
 		E089AE72299E32C300ADF75D /* CoronaviApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaviApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E089AE75299E32C300ADF75D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E089AE77299E32C300ADF75D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E089AE79299E32C300ADF75D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E089AE7E299E32C300ADF75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E089AE81299E32C300ADF75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E089AE83299E32C300ADF75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				E089AE89299E333800ADF75D /* ViewControllers */,
 				E089AE75299E32C300ADF75D /* AppDelegate.swift */,
 				E089AE77299E32C300ADF75D /* SceneDelegate.swift */,
-				E089AE79299E32C300ADF75D /* ViewController.swift */,
 				E089AE7E299E32C300ADF75D /* Assets.xcassets */,
 				E089AE80299E32C300ADF75D /* LaunchScreen.storyboard */,
 				E089AE83299E32C300ADF75D /* Info.plist */,
@@ -334,7 +331,6 @@
 				E089AEA4299E33E800ADF75D /* SettingViewController.swift in Sources */,
 				E089AE94299E33CA00ADF75D /* CovidApi.swift in Sources */,
 				E089AEA5299E33E800ADF75D /* PrivacyPolicyViewController.swift in Sources */,
-				E089AE7A299E32C300ADF75D /* ViewController.swift in Sources */,
 				E089AEA0299E33E800ADF75D /* MenuViewController.swift in Sources */,
 				E089AE76299E32C300ADF75D /* AppDelegate.swift in Sources */,
 				E089AEA1299E33E800ADF75D /* PrefectureViewController.swift in Sources */,
