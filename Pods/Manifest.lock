@@ -1,0 +1,30 @@
+PODS:
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - LicensePlist (3.23.4)
+  - PKHUD (5.3.0)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - LicensePlist
+  - PKHUD
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - LicensePlist
+    - PKHUD
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  LicensePlist: 804d60431859ef6ee6b2aa2dd0eb2c09d0418edd
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 6a61960314c956205729e514d0535f9c81219ab3
+
+COCOAPODS: 1.11.3
