@@ -14,24 +14,24 @@
 		E089AE82299E32C300ADF75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AE80299E32C300ADF75D /* LaunchScreen.storyboard */; };
 		E089AE90299E33A900ADF75D /* service.txt in Resources */ = {isa = PBXBuildFile; fileRef = E089AE8F299E33A900ADF75D /* service.txt */; };
 		E089AE92299E33B300ADF75D /* policy.txt in Resources */ = {isa = PBXBuildFile; fileRef = E089AE91299E33B300ADF75D /* policy.txt */; };
-		E089AE94299E33CA00ADF75D /* CovidApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE93299E33CA00ADF75D /* CovidApi.swift */; };
-		E089AE97299E33D800ADF75D /* CovidSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE95299E33D800ADF75D /* CovidSingleton.swift */; };
-		E089AE98299E33D800ADF75D /* CovidEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE96299E33D800ADF75D /* CovidEntity.swift */; };
-		E089AEA0299E33E800ADF75D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE99299E33E800ADF75D /* MenuViewController.swift */; };
-		E089AEA1299E33E800ADF75D /* PrefectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9A299E33E800ADF75D /* PrefectureViewController.swift */; };
-		E089AEA2299E33E800ADF75D /* PrefectureTotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9B299E33E800ADF75D /* PrefectureTotalViewController.swift */; };
-		E089AEA3299E33E800ADF75D /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9C299E33E800ADF75D /* TermsOfServiceViewController.swift */; };
-		E089AEA4299E33E800ADF75D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9D299E33E800ADF75D /* SettingViewController.swift */; };
-		E089AEA5299E33E800ADF75D /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9E299E33E800ADF75D /* PrivacyPolicyViewController.swift */; };
-		E089AEA6299E33E800ADF75D /* DetailPrefectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE9F299E33E800ADF75D /* DetailPrefectureViewController.swift */; };
-		E089AEAF299E33F600ADF75D /* PrivacyPolicy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEA7299E33F600ADF75D /* PrivacyPolicy.storyboard */; };
-		E089AEB0299E33F600ADF75D /* TermsOfService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEA8299E33F600ADF75D /* TermsOfService.storyboard */; };
-		E089AEB1299E33F600ADF75D /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEA9299E33F600ADF75D /* Setting.storyboard */; };
-		E089AEB2299E33F600ADF75D /* DetailPrefecture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEAA299E33F600ADF75D /* DetailPrefecture.storyboard */; };
-		E089AEB3299E33F600ADF75D /* Prefecture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEAB299E33F600ADF75D /* Prefecture.storyboard */; };
-		E089AEB4299E33F600ADF75D /* PrefectureTotal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEAC299E33F600ADF75D /* PrefectureTotal.storyboard */; };
-		E089AEB5299E33F600ADF75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEAD299E33F600ADF75D /* Main.storyboard */; };
 		E089AEBC299E3C4100ADF75D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E089AEBB299E3C4100ADF75D /* Settings.bundle */; };
+		E089AEC0299F736A00ADF75D /* DetailPrefectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AEBF299F736A00ADF75D /* DetailPrefectureViewController.swift */; };
+		E089AEC2299F741600ADF75D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AEC1299F741600ADF75D /* MenuViewController.swift */; };
+		E089AEC4299F743F00ADF75D /* PrefectureTotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AEC3299F743F00ADF75D /* PrefectureTotalViewController.swift */; };
+		E089AEC6299F749C00ADF75D /* PrefectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AEC5299F749C00ADF75D /* PrefectureViewController.swift */; };
+		E089AEC8299F74F900ADF75D /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AEC7299F74F900ADF75D /* PrivacyPolicyViewController.swift */; };
+		E089AECA299F751A00ADF75D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AEC9299F751A00ADF75D /* SettingViewController.swift */; };
+		E089AECC299F754100ADF75D /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AECB299F754100ADF75D /* TermsOfServiceViewController.swift */; };
+		E089AECE299F757C00ADF75D /* CovidEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AECD299F757C00ADF75D /* CovidEntity.swift */; };
+		E089AED6299F768F00ADF75D /* CovidApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AED5299F768F00ADF75D /* CovidApi.swift */; };
+		E089AED8299F76E500ADF75D /* CovidSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AED7299F76E500ADF75D /* CovidSingleton.swift */; };
+		E089AEDA299F780B00ADF75D /* DetailPrefecture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AED9299F780B00ADF75D /* DetailPrefecture.storyboard */; };
+		E089AEDC299F785300ADF75D /* Prefecture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEDB299F785300ADF75D /* Prefecture.storyboard */; };
+		E089AEDE299F787500ADF75D /* PrefectureTotal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEDD299F787500ADF75D /* PrefectureTotal.storyboard */; };
+		E089AEE0299F789E00ADF75D /* PrivacyPolicy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEDF299F789E00ADF75D /* PrivacyPolicy.storyboard */; };
+		E089AEE2299F78C500ADF75D /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEE1299F78C500ADF75D /* Setting.storyboard */; };
+		E089AEE4299F78DD00ADF75D /* TermsOfService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEE3299F78DD00ADF75D /* TermsOfService.storyboard */; };
+		E089AEE6299F78FF00ADF75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AEE5299F78FF00ADF75D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,24 +46,24 @@
 		E089AE83299E32C300ADF75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E089AE8F299E33A900ADF75D /* service.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = service.txt; path = ../../../../../work/App/bk/CoronaApp/CoronaApp/service.txt; sourceTree = "<group>"; };
 		E089AE91299E33B300ADF75D /* policy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = policy.txt; path = ../../../../../work/App/bk/CoronaApp/CoronaApp/Setting/policy.txt; sourceTree = "<group>"; };
-		E089AE93299E33CA00ADF75D /* CovidApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidApi.swift; path = ../../../CoronaApp/CoronaApp/Api/CovidApi.swift; sourceTree = "<group>"; };
-		E089AE95299E33D800ADF75D /* CovidSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidSingleton.swift; path = ../../../CoronaApp/CoronaApp/Entity/CovidSingleton.swift; sourceTree = "<group>"; };
-		E089AE96299E33D800ADF75D /* CovidEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidEntity.swift; path = ../../../CoronaApp/CoronaApp/Entity/CovidEntity.swift; sourceTree = "<group>"; };
-		E089AE99299E33E800ADF75D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/MenuViewController.swift; sourceTree = "<group>"; };
-		E089AE9A299E33E800ADF75D /* PrefectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrefectureViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/PrefectureViewController.swift; sourceTree = "<group>"; };
-		E089AE9B299E33E800ADF75D /* PrefectureTotalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrefectureTotalViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/PrefectureTotalViewController.swift; sourceTree = "<group>"; };
-		E089AE9C299E33E800ADF75D /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermsOfServiceViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/TermsOfServiceViewController.swift; sourceTree = "<group>"; };
-		E089AE9D299E33E800ADF75D /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/SettingViewController.swift; sourceTree = "<group>"; };
-		E089AE9E299E33E800ADF75D /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacyPolicyViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
-		E089AE9F299E33E800ADF75D /* DetailPrefectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailPrefectureViewController.swift; path = ../../../CoronaApp/CoronaApp/ViewControllers/DetailPrefectureViewController.swift; sourceTree = "<group>"; };
-		E089AEA7299E33F600ADF75D /* PrivacyPolicy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PrivacyPolicy.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/PrivacyPolicy.storyboard; sourceTree = "<group>"; };
-		E089AEA8299E33F600ADF75D /* TermsOfService.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TermsOfService.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/TermsOfService.storyboard; sourceTree = "<group>"; };
-		E089AEA9299E33F600ADF75D /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Setting.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/Setting.storyboard; sourceTree = "<group>"; };
-		E089AEAA299E33F600ADF75D /* DetailPrefecture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = DetailPrefecture.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/DetailPrefecture.storyboard; sourceTree = "<group>"; };
-		E089AEAB299E33F600ADF75D /* Prefecture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Prefecture.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/Prefecture.storyboard; sourceTree = "<group>"; };
-		E089AEAC299E33F600ADF75D /* PrefectureTotal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PrefectureTotal.storyboard; path = ../../../CoronaApp/CoronaApp/StoryBoards/PrefectureTotal.storyboard; sourceTree = "<group>"; };
-		E089AEAE299E33F600ADF75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../CoronaApp/CoronaApp/StoryBoards/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E089AEBB299E3C4100ADF75D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E089AEBF299F736A00ADF75D /* DetailPrefectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPrefectureViewController.swift; sourceTree = "<group>"; };
+		E089AEC1299F741600ADF75D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E089AEC3299F743F00ADF75D /* PrefectureTotalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureTotalViewController.swift; sourceTree = "<group>"; };
+		E089AEC5299F749C00ADF75D /* PrefectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureViewController.swift; sourceTree = "<group>"; };
+		E089AEC7299F74F900ADF75D /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		E089AEC9299F751A00ADF75D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E089AECB299F754100ADF75D /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
+		E089AECD299F757C00ADF75D /* CovidEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidEntity.swift; sourceTree = "<group>"; };
+		E089AED5299F768F00ADF75D /* CovidApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidApi.swift; sourceTree = "<group>"; };
+		E089AED7299F76E500ADF75D /* CovidSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidSingleton.swift; sourceTree = "<group>"; };
+		E089AED9299F780B00ADF75D /* DetailPrefecture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailPrefecture.storyboard; sourceTree = "<group>"; };
+		E089AEDB299F785300ADF75D /* Prefecture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Prefecture.storyboard; sourceTree = "<group>"; };
+		E089AEDD299F787500ADF75D /* PrefectureTotal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrefectureTotal.storyboard; sourceTree = "<group>"; };
+		E089AEDF299F789E00ADF75D /* PrivacyPolicy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrivacyPolicy.storyboard; sourceTree = "<group>"; };
+		E089AEE1299F78C500ADF75D /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		E089AEE3299F78DD00ADF75D /* TermsOfService.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TermsOfService.storyboard; sourceTree = "<group>"; };
+		E089AEE5299F78FF00ADF75D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,13 +134,13 @@
 		E089AE89299E333800ADF75D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E089AE9F299E33E800ADF75D /* DetailPrefectureViewController.swift */,
-				E089AE99299E33E800ADF75D /* MenuViewController.swift */,
-				E089AE9B299E33E800ADF75D /* PrefectureTotalViewController.swift */,
-				E089AE9A299E33E800ADF75D /* PrefectureViewController.swift */,
-				E089AE9E299E33E800ADF75D /* PrivacyPolicyViewController.swift */,
-				E089AE9D299E33E800ADF75D /* SettingViewController.swift */,
-				E089AE9C299E33E800ADF75D /* TermsOfServiceViewController.swift */,
+				E089AEBF299F736A00ADF75D /* DetailPrefectureViewController.swift */,
+				E089AEC1299F741600ADF75D /* MenuViewController.swift */,
+				E089AEC3299F743F00ADF75D /* PrefectureTotalViewController.swift */,
+				E089AEC5299F749C00ADF75D /* PrefectureViewController.swift */,
+				E089AEC7299F74F900ADF75D /* PrivacyPolicyViewController.swift */,
+				E089AEC9299F751A00ADF75D /* SettingViewController.swift */,
+				E089AECB299F754100ADF75D /* TermsOfServiceViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -148,13 +148,13 @@
 		E089AE8B299E335000ADF75D /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
-				E089AEAA299E33F600ADF75D /* DetailPrefecture.storyboard */,
-				E089AEAD299E33F600ADF75D /* Main.storyboard */,
-				E089AEAB299E33F600ADF75D /* Prefecture.storyboard */,
-				E089AEAC299E33F600ADF75D /* PrefectureTotal.storyboard */,
-				E089AEA7299E33F600ADF75D /* PrivacyPolicy.storyboard */,
-				E089AEA9299E33F600ADF75D /* Setting.storyboard */,
-				E089AEA8299E33F600ADF75D /* TermsOfService.storyboard */,
+				E089AED9299F780B00ADF75D /* DetailPrefecture.storyboard */,
+				E089AEDB299F785300ADF75D /* Prefecture.storyboard */,
+				E089AEDD299F787500ADF75D /* PrefectureTotal.storyboard */,
+				E089AEDF299F789E00ADF75D /* PrivacyPolicy.storyboard */,
+				E089AEE1299F78C500ADF75D /* Setting.storyboard */,
+				E089AEE3299F78DD00ADF75D /* TermsOfService.storyboard */,
+				E089AEE5299F78FF00ADF75D /* Main.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 		E089AE8C299E336F00ADF75D /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				E089AE96299E33D800ADF75D /* CovidEntity.swift */,
-				E089AE95299E33D800ADF75D /* CovidSingleton.swift */,
+				E089AECD299F757C00ADF75D /* CovidEntity.swift */,
+				E089AED7299F76E500ADF75D /* CovidSingleton.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 		E089AE8D299E337D00ADF75D /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				E089AE93299E33CA00ADF75D /* CovidApi.swift */,
+				E089AED5299F768F00ADF75D /* CovidApi.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -248,16 +248,16 @@
 			files = (
 				E089AE82299E32C300ADF75D /* LaunchScreen.storyboard in Resources */,
 				E089AE92299E33B300ADF75D /* policy.txt in Resources */,
-				E089AEB0299E33F600ADF75D /* TermsOfService.storyboard in Resources */,
-				E089AEB5299E33F600ADF75D /* Main.storyboard in Resources */,
+				E089AEDC299F785300ADF75D /* Prefecture.storyboard in Resources */,
 				E089AEBC299E3C4100ADF75D /* Settings.bundle in Resources */,
-				E089AEB2299E33F600ADF75D /* DetailPrefecture.storyboard in Resources */,
-				E089AEB4299E33F600ADF75D /* PrefectureTotal.storyboard in Resources */,
+				E089AEE0299F789E00ADF75D /* PrivacyPolicy.storyboard in Resources */,
+				E089AEE4299F78DD00ADF75D /* TermsOfService.storyboard in Resources */,
+				E089AEE6299F78FF00ADF75D /* Main.storyboard in Resources */,
+				E089AEDE299F787500ADF75D /* PrefectureTotal.storyboard in Resources */,
 				E089AE7F299E32C300ADF75D /* Assets.xcassets in Resources */,
-				E089AEB3299E33F600ADF75D /* Prefecture.storyboard in Resources */,
+				E089AEE2299F78C500ADF75D /* Setting.storyboard in Resources */,
+				E089AEDA299F780B00ADF75D /* DetailPrefecture.storyboard in Resources */,
 				E089AE90299E33A900ADF75D /* service.txt in Resources */,
-				E089AEAF299E33F600ADF75D /* PrivacyPolicy.storyboard in Resources */,
-				E089AEB1299E33F600ADF75D /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,18 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E089AE98299E33D800ADF75D /* CovidEntity.swift in Sources */,
-				E089AEA4299E33E800ADF75D /* SettingViewController.swift in Sources */,
-				E089AE94299E33CA00ADF75D /* CovidApi.swift in Sources */,
-				E089AEA5299E33E800ADF75D /* PrivacyPolicyViewController.swift in Sources */,
-				E089AEA0299E33E800ADF75D /* MenuViewController.swift in Sources */,
+				E089AED6299F768F00ADF75D /* CovidApi.swift in Sources */,
+				E089AECC299F754100ADF75D /* TermsOfServiceViewController.swift in Sources */,
+				E089AECE299F757C00ADF75D /* CovidEntity.swift in Sources */,
+				E089AED8299F76E500ADF75D /* CovidSingleton.swift in Sources */,
+				E089AEC4299F743F00ADF75D /* PrefectureTotalViewController.swift in Sources */,
+				E089AECA299F751A00ADF75D /* SettingViewController.swift in Sources */,
+				E089AEC8299F74F900ADF75D /* PrivacyPolicyViewController.swift in Sources */,
 				E089AE76299E32C300ADF75D /* AppDelegate.swift in Sources */,
-				E089AEA1299E33E800ADF75D /* PrefectureViewController.swift in Sources */,
-				E089AEA2299E33E800ADF75D /* PrefectureTotalViewController.swift in Sources */,
+				E089AEC2299F741600ADF75D /* MenuViewController.swift in Sources */,
 				E089AE78299E32C300ADF75D /* SceneDelegate.swift in Sources */,
-				E089AE97299E33D800ADF75D /* CovidSingleton.swift in Sources */,
-				E089AEA3299E33E800ADF75D /* TermsOfServiceViewController.swift in Sources */,
-				E089AEA6299E33E800ADF75D /* DetailPrefectureViewController.swift in Sources */,
+				E089AEC0299F736A00ADF75D /* DetailPrefectureViewController.swift in Sources */,
+				E089AEC6299F749C00ADF75D /* PrefectureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +351,6 @@
 				E089AE81299E32C300ADF75D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		E089AEAD299E33F600ADF75D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E089AEAE299E33F600ADF75D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
