@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		806868F766604446CC9B2B42 /* Pods_CoronaviApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D37D7546434A3242DD72EC8 /* Pods_CoronaviApp.framework */; };
+		E07E419F299FC76800BAD942 /* service.txt in Resources */ = {isa = PBXBuildFile; fileRef = E07E419E299FC76800BAD942 /* service.txt */; };
+		E07E41A1299FC79100BAD942 /* policy.txt in Resources */ = {isa = PBXBuildFile; fileRef = E07E41A0299FC79100BAD942 /* policy.txt */; };
 		E089AE76299E32C300ADF75D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE75299E32C300ADF75D /* AppDelegate.swift */; };
 		E089AE78299E32C300ADF75D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AE77299E32C300ADF75D /* SceneDelegate.swift */; };
 		E089AE7F299E32C300ADF75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E089AE7E299E32C300ADF75D /* Assets.xcassets */; };
 		E089AE82299E32C300ADF75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E089AE80299E32C300ADF75D /* LaunchScreen.storyboard */; };
-		E089AE90299E33A900ADF75D /* service.txt in Resources */ = {isa = PBXBuildFile; fileRef = E089AE8F299E33A900ADF75D /* service.txt */; };
-		E089AE92299E33B300ADF75D /* policy.txt in Resources */ = {isa = PBXBuildFile; fileRef = E089AE91299E33B300ADF75D /* policy.txt */; };
 		E089AEBC299E3C4100ADF75D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E089AEBB299E3C4100ADF75D /* Settings.bundle */; };
 		E089AEC0299F736A00ADF75D /* DetailPrefectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AEBF299F736A00ADF75D /* DetailPrefectureViewController.swift */; };
 		E089AEC2299F741600ADF75D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AEC1299F741600ADF75D /* MenuViewController.swift */; };
@@ -38,14 +38,14 @@
 		50BD8853DE24D8CE91F711F5 /* Pods-CoronaviApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaviApp.release.xcconfig"; path = "Target Support Files/Pods-CoronaviApp/Pods-CoronaviApp.release.xcconfig"; sourceTree = "<group>"; };
 		7D37D7546434A3242DD72EC8 /* Pods_CoronaviApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoronaviApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18A82E50EC3A1E30F8C31B9 /* Pods-CoronaviApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoronaviApp.debug.xcconfig"; path = "Target Support Files/Pods-CoronaviApp/Pods-CoronaviApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E07E419E299FC76800BAD942 /* service.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = service.txt; sourceTree = "<group>"; };
+		E07E41A0299FC79100BAD942 /* policy.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = policy.txt; sourceTree = "<group>"; };
 		E089AE72299E32C300ADF75D /* CoronaviApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaviApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E089AE75299E32C300ADF75D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E089AE77299E32C300ADF75D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E089AE7E299E32C300ADF75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E089AE81299E32C300ADF75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E089AE83299E32C300ADF75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E089AE8F299E33A900ADF75D /* service.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = service.txt; path = ../../../../../work/App/bk/CoronaApp/CoronaApp/service.txt; sourceTree = "<group>"; };
-		E089AE91299E33B300ADF75D /* policy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = policy.txt; path = ../../../../../work/App/bk/CoronaApp/CoronaApp/Setting/policy.txt; sourceTree = "<group>"; };
 		E089AEBB299E3C4100ADF75D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		E089AEBF299F736A00ADF75D /* DetailPrefectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPrefectureViewController.swift; sourceTree = "<group>"; };
 		E089AEC1299F741600ADF75D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +95,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E07E419D299FC71200BAD942 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E07E419E299FC76800BAD942 /* service.txt */,
+				E07E41A0299FC79100BAD942 /* policy.txt */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		E089AE69299E32C200ADF75D = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +125,7 @@
 		E089AE74299E32C300ADF75D /* CoronaviApp */ = {
 			isa = PBXGroup;
 			children = (
-				E089AE8E299E338F00ADF75D /* Setting */,
+				E07E419D299FC71200BAD942 /* Setting */,
 				E089AE8D299E337D00ADF75D /* Api */,
 				E089AE8C299E336F00ADF75D /* Entity */,
 				E089AE8B299E335000ADF75D /* StoryBoards */,
@@ -174,15 +183,6 @@
 				E089AED5299F768F00ADF75D /* CovidApi.swift */,
 			);
 			path = Api;
-			sourceTree = "<group>";
-		};
-		E089AE8E299E338F00ADF75D /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				E089AE8F299E33A900ADF75D /* service.txt */,
-				E089AE91299E33B300ADF75D /* policy.txt */,
-			);
-			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,18 +246,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07E419F299FC76800BAD942 /* service.txt in Resources */,
 				E089AE82299E32C300ADF75D /* LaunchScreen.storyboard in Resources */,
-				E089AE92299E33B300ADF75D /* policy.txt in Resources */,
 				E089AEDC299F785300ADF75D /* Prefecture.storyboard in Resources */,
 				E089AEBC299E3C4100ADF75D /* Settings.bundle in Resources */,
 				E089AEE0299F789E00ADF75D /* PrivacyPolicy.storyboard in Resources */,
+				E07E41A1299FC79100BAD942 /* policy.txt in Resources */,
 				E089AEE4299F78DD00ADF75D /* TermsOfService.storyboard in Resources */,
 				E089AEE6299F78FF00ADF75D /* Main.storyboard in Resources */,
 				E089AEDE299F787500ADF75D /* PrefectureTotal.storyboard in Resources */,
 				E089AE7F299E32C300ADF75D /* Assets.xcassets in Resources */,
 				E089AEE2299F78C500ADF75D /* Setting.storyboard in Resources */,
 				E089AEDA299F780B00ADF75D /* DetailPrefecture.storyboard in Resources */,
-				E089AE90299E33A900ADF75D /* service.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
