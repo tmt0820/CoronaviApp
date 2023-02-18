@@ -6,10 +6,6 @@
 	<array>
 		<string>ja</string>
 	</array>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>位置情報を取得します。</string>
-	<key>NSLocationUsageDescription</key>
-	<string>位置情報を取得します。</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
